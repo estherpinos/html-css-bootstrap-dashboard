@@ -13,7 +13,27 @@
 /*******MAIN *******/
 
 /* MENU LEFT */
+
 .menu-left, .contents-dashboard{
-  height: 100vh;
+  height: calc(100vh - 56px);
   margin-top: 56px;
 }
+
+.menu-house i, .menu-stats i, .menu-signals i{
+  width: 30px;
+}
+
+.menu-stats i{
+  font-size: 18px;
+}
+
+/* Hover */
+
+.menu-house i:hover, .menu-stats i:hover, .menu-signals i:hover, .admin-menu i:hover{
+  scale: 1.2;
+}
+
+/* CONTENTS DASHBOARD */
+
+
+
