@@ -3,6 +3,17 @@
   border: 1px solid;
 }
 
-/* HEADER */
+/******* HEADER *******/
+
 
 /* NAVBAR */
+
+
+
+/*******MAIN *******/
+
+/* MENU LEFT */
+.menu-left, .contents-dashboard{
+  height: 100vh;
+  margin-top: 56px;
+}
