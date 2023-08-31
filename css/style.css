@@ -35,5 +35,10 @@
 
 /* CONTENTS DASHBOARD */
 
+/* TABLE */
 
+.contents-dashboard img{
+  width: 30px;
+  padding-right: 5px;
+}
 

@@ -36,10 +36,68 @@
     </nav>
   </header>
 
-  <main>
-    <div class="row">
-      <div class="menu-left debug col-1 col-md-2">1</div>
-      <div class="contents-dashboard debug col-11 col-md-10">2</div>
+   <main>
+    <div class="row flex-nowrap ">
+      <!-- LEFT BAR -->
+      <div class="menu-left d-flex flex-column justify-content-between debug col-1 col-md-2 py-4 px-3 ">
+
+        <div class="menu-left-bar">
+          <div class="menu-house d-flex flex-row align-items-center my-3 "><i class="fa-solid fa-house " style="color: #ffffff;"></i><span class="d-none d-md-block text-white fs-5 ">Home</span>
+          </div>
+          
+          <div class="menu-stats d-flex flex-row align-items-center my-3"><i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i><span class="d-none d-md-block text-white fs-5">Stats</span>
+          </div>
+          
+          <div class="menu-signals d-flex flex-row align-items-center my-3"><i class="fa-solid fa-signal " style="color: #ffffff;"></i><span class="d-none d-md-block text-white fs-5 ">Signals</span>
+          </div>
+        </div>
+        <div class="admin-bar-left">
+          <div class="admin-menu d-flex flex-row align-items-center ">
+            <i class="fa-solid fa-gear" style="color: #ffffff;"></i><span class=" px-2 text-white d-none d-md-block fs-5  ">Admin</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTENTS DASHBOARD -->
+      <div class="contents-dashboard debug col-11 col-md-10 p-0 ">
+        <section id="blue-bar-top" class="bg-primary p-3  ">
+          <div class="row row-cols-3 d-flex justify-content-between ">
+            <div class="logo-boolean">1</div>
+            <div class="studenti">2</div>
+            <div class="nuovo-studente">3</div>
+          </div>
+        </section>
+        <section id="tabs-contents" class="my-4 ">
+          <div class="row">
+            <div class="col-12 col-md-8 ">
+              <div class="card">
+                <div class="card-header">title</div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card">
+                <div class="card-header">title</div>
+              </div>
+            </div>
+            <div class="col-12 col-md-8 ">
+              <div class="card">
+                <div class="card-header">title2</div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 ">
+              <div class="card">
+                <div class="card-header">title3</div>
+              </div>
+            </div>
+          </div>
+          
+              
+         
+          
+         
+        </section>
+        
+     </div>
     </div>
    
     
