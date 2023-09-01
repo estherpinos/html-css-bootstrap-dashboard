@@ -7,7 +7,9 @@
 
 
 /* NAVBAR */
-
+.logo img:first-child{
+  width: 50px;
+}
 
 
 /*******MAIN *******/
