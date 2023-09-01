@@ -35,7 +35,11 @@
 
 /* CONTENTS DASHBOARD */
 
-/* TABLE */
+.contents-dashboard{
+  overflow-y: scroll;
+}
 
-
+#stats-img{
+  width: 100%;
+}
 
