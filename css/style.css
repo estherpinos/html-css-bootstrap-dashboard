@@ -18,8 +18,8 @@
 /* MENU LEFT */
 
 .menu-left, .contents-dashboard{
-  height: calc(100vh - 56px);
-  margin-top: 56px;
+  height: calc(100vh - 88px);
+  margin-top: 88px;
 }
 
 .menu-house i, .menu-stats i, .menu-signals i{
@@ -44,5 +44,9 @@
 
 #stats-img{
   width: 100%;
+}
+
+.prossime-classi img{
+  width: 30px;
 }
 
