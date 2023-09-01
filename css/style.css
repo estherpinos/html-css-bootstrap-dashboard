@@ -17,6 +17,11 @@
 
 /* MENU LEFT */
 
+.menu-left{
+  background-color: #051E34;
+  background-image: url(../img/img/sidebar-bg.png);
+}
+
 .menu-left, .contents-dashboard{
   height: calc(100vh - 88px);
   margin-top: 88px;
