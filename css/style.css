@@ -34,8 +34,8 @@
 
 /* Hover */
 
-.menu-house i:hover, .menu-stats i:hover, .menu-signals i:hover, .admin-menu i:hover{
-  scale: 1.2;
+.menu-house:hover, .menu-stats:hover, .menu-signals:hover, .admin-menu:hover{
+  background-color: lightgray;
 }
 
 /* CONTENTS DASHBOARD */
@@ -61,5 +61,6 @@
   border: black 1px solid;
   border-radius: 3px;
   padding: 5px;
+  margin: 2px;
 }
 
