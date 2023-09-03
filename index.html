@@ -26,7 +26,16 @@
           <img class="d-lg-none " src="img/img/mobile-logo.png" alt="">
           <img class="d-none d-lg-block " src="img/img/logo.svg" alt="">
         </a>
-        <input class="search-bar w-100 p-2 text-start border-0  bg-light rounded-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel"  aria-label="Search"> 
+        <!-- SEARCH BAR -->
+        <nav class="navbar bg-light border-3 w-100 ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+              Pova a cercare: lezioni di Laravel
+            </a>
+          </div>
+        </nav>
+
         <div class="menu-navbar d-flex align-items-center">
           <ul class="d-inline-block d-flex align-items-center justify-content-between mb-0 mx0 px0">
             <li class="list-unstyled px-2 d-none d-md-block  "><a href="#"></a><i class="fa-solid fa-bars"></i></li>
@@ -74,17 +83,45 @@
       </div>
 
       <!-- CONTENTS DASHBOARD -->
+
+      <!-- BAR BLUE -->
       <div class="contents-dashboard  col-11 col-md-10 p-0 ">
         <section id="blue-bar-top" class="bg-primary p-3  ">
-          <div class="row row-cols-1 row-cols-md-3  d-flex justify-content-between ">
-            <div class="logo-boolean ">
-              <div>
-                <h1 class="text-white ">Boolean</h1>
+          <div class="row row-cols-1 row-cols-md-3 ">
+            <div class="logo-boolean">
+              <div class="d-flex flex-row flex-nowrap align-items-center ">
+                <h1 class="text-white px-2">Boolean</h1>
+                <button type="button" class="btn"
+                   style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .765em; height: 25px; background-color:#165BBA; color: white; border-radius: 10px; min-width: 85px;">
+                  Piano blaze
+                </button>
               </div>
-              <div></div>
+
+              <div class="d-flex d-inline-block">
+                <button type="button" class="btn"
+                   style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .765em; height: 25px; background-color:#165BBA; color: white; border-radius: 10px; display: inline-block; min-width: 60px;">
+                  3 app
+                </button>
+                <button type="button" class="btn d-lg-none   "
+                   style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .765em; height: 25px; background-color:#165BBA; color: white; border-radius: 10px;">
+                   <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
+                </button>
+                <button type="button" class="btn d-none d-xxl-block "
+                   style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .765em; height: 25px; background-color:#165BBA; color: white; border-radius: 10px; min-width: 130px;">
+                  Boolean mobile app
+                </button>
+                <button type="button" class="btn d-none d-xxl-block "
+                   style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .765em; height: 25px; background-color:#165BBA; color: white; border-radius: 10px; min-width: 120px;">
+                  Boolean web app
+                </button>
+                <button type="button" class="btn d-none d-xxl-block "
+                   style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .765em; height: 25px; background-color:#165BBA; color: white; border-radius: 10px; min-width: 120px">
+                  Boolean blog app
+                </button>
+              </div>
             </div>
-            <div class="studenti">
-              <p class="text-white m-0 ">Studenti online negli ultimi 30 minuti</p>
+            <div class="studenti ">
+              <p class="text-white">Studenti online negli ultimi 30 minuti</p>
               <p class="fs-2 text-white ">125</p>
             </div>
             <div class="nuovo-studente">
@@ -251,6 +288,8 @@
                 </div>
                 </div>
               </div>
+
+              <!-- CARD F.A.Q. -->
               <div>
                 <div class="card my-2 ">
                   <div class="card-header"><h3>F.A.Q.</h3></div>
@@ -291,8 +330,10 @@
                 </div>
               </div>
             </div>
-            
+             
+        
             <div class="content right col-12 col-lg-5 px-2">
+              <!-- CARD checkbox -->
               <div>
                 <div class="card my-2 ">
                 <div class="card-header"><h3>Todo</h3></div>
@@ -312,6 +353,8 @@
                 </ul></div>
                 </div>
               </div>
+
+              <!-- CARD IMG -->
               <div>
                 <div class="card my-2 ">
                   <div class="card-body ">

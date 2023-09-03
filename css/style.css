@@ -44,6 +44,14 @@
   overflow-y: scroll;
 }
 
+/* BLUE BAR */
+
+#blue-bar-top .btn{
+  display: inline-block;
+  flex-wrap: nowrap;
+  display: flex;
+}
+
 /* CARD IMAGE */
 
 #stats-img{
@@ -63,4 +71,5 @@
   padding: 5px;
   margin: 2px;
 }
+
 
