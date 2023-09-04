@@ -22,19 +22,18 @@
   <header>
     <nav class="navbar py-3 bg-light d-xxl-inline-block flex-nowrap fixed-top  ">
       <div class="container-fluid d-flex justify-content-between bg-white py-2 ">
-        <a class="navbar-brand logo">
+        <a class="navbar-brand logo d-flex align-items-center ">
           <img class="d-lg-none " src="img/img/mobile-logo.png" alt="">
           <img class="d-none d-lg-block " src="img/img/logo.svg" alt="">
         </a>
         <!-- SEARCH BAR -->
-        <nav class="navbar bg-light border-3 w-100 ">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
-              Pova a cercare: lezioni di Laravel
-            </a>
-          </div>
-        </nav>
+      
+            <div class="input-group">
+              <span class="input-group-text bg-light border-0 " id="basic-addon1"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></span>
+              <input type="text" class="form-control bg-light border-0 px-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+       
+        
 
         <div class="menu-navbar d-flex align-items-center">
           <ul class="d-inline-block d-flex align-items-center justify-content-between mb-0 mx0 px0">
@@ -76,7 +75,7 @@
           </div>
         </div>
         <div class="admin-bar-left px-3 ">
-          <div class="admin-menu d-flex flex-row align-items-center justify-content-between w-75 my-3  ">
+          <div class="admin-menu d-flex flex-row align-items-center w-75 my-3  ">
             <i class="fa-solid fa-gear" style="color: #ffffff;"></i><span class=" px-2 text-white d-none d-md-block fs-5">Admin</span>
           </div>
         </div>
@@ -85,8 +84,8 @@
       <!-- CONTENTS DASHBOARD -->
 
       <!-- BAR BLUE -->
-      <div class="contents-dashboard  col-11 col-md-10 p-0 ">
-        <section id="blue-bar-top" class="bg-primary p-3  ">
+      <div class="contents-dashboard col-11 col-md-10 p-0 ">
+        <section id="blue-bar-top" class="bg-primary p-3">
           <div class="row row-cols-1 row-cols-md-3 ">
             <div class="logo-boolean">
               <div class="d-flex flex-row flex-nowrap align-items-center ">
