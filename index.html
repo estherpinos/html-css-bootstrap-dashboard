@@ -83,12 +83,14 @@
 
       <!-- CONTENTS DASHBOARD -->
 
-      <!-- BAR BLUE -->
-      <div class="contents-dashboard  ">
-        <section id="blue-bar-top" class="bg-primary p-3">
+      
+        <div class="contents-dashboard col-11 col-md-10 px-0  ">
+
+          <!-- BLUE BAR -->
+         <section id="blue-bar-top" class="bg-primary p-3">
           <div class="row px-2">
             <div class="logo-boolean col-12 order-sm-2  
-            col-md-4 order-md-1 col-xl-6 px-0 my-sm-2">
+             col-md-4 order-md-1 col-xl-6 px-0 my-sm-2">
               <div class="d-flex flex-row flex-nowrap align-items-center ">
                 <h1 class="text-white px-2">Boolean</h1>
                 <button type="button" class="btn d-flex align-items-center justify-content-center "
@@ -126,16 +128,19 @@
               <p class="fs-2 text-white ">125</p>
             </div>
 
-            <div class="nuovo-studente col-12 order-sm-1 col-md-4 order-md-3 col-xl-3 my-sm-2 ">
+            <div class="nuovo-studente col-12 order-sm-1 col-md-4 order-md-3 col-xl-3 my-sm-2 d-inline-flex justify-content-end ">
             
               <p class="text-white m-0 ">Nuovo Studente</p>
 
               <!-- BUTTON PLUS -->
               
-              <button class="btn btn-primary border-1 border-white " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                +
+              <span><button class="btn border-white mx-3 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
               </button>
-              
+              </span>
+
+              <!-- OFFCANVAS -->
+
               <div class="offcanvas offcanvas-end w-50 " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
@@ -143,40 +148,69 @@
                 </div>
 
                 <div class="offcanvas-body">
-                  <div class="row"><div class="mb-3 col-12 col-md-6 ">
-                    <label for="exampleInputEmail1" class="form-label">Nome</label>
-                    <input type="email" class="form-control"  aria-describedby="emailHelp">
-                  </div>
-                  <div class="mb-3 col-12 col-md-6 ">
-                    <label for="exampleInputEmail1" class="form-label">Cognome</label>
-                    <input type="email" class="form-control" aria-describedby="emailHelp">
+                    
+                  <form class="row">
+                    <div class="mb-3 col-12 col-md-6 ">
+                      <label for="examplenome" class="form-label">Nome</label>
+                      <input type="text" class="form-control"  aria-describedby="emailHelp">
+                    </div>
+                  
+                    <div class="mb-3 col-12 col-md-6 ">
+                      <label for="exampleInputEmail1" class="form-label">Cognome</label>
+                      <input type="text" class="form-control" aria-describedby="emailHelp">
+                    </div>
+                    <div class="col-12 col-md-6 mb-3 ">
+                      <label for="email">Email</label>
+                      <div class="input-group pt-2">
+                          <span class="input-group-text" id="addon-wrapping">@</span>
+                          <input type="text" class="form-control" placeholder="Email" id="email" aria-label="Username" aria-describedby="addon-wrapping">
+                      </div>
+                    </div>
+                  
+                    <div class="mb-3 col-12 col-md-6 ">
+                      <label for="exampleInputEmail1" class="form-label">Password</label>
+                      <input type="text" class="form-control" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3 col-12">
+                      <label for="exampleInputEmail1" class="form-label">Indirizzo</label>
+                      <input type="text" class="form-control" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3 col-12 col-md-6 ">
+                      <label for="exampleInputEmail1" class="form-label">città</label>
+                      <input type="text" class="form-control" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3 col-12 col-md-6 ">
+                      <label for="exampleInputEmail1" class="form-label">Stato</label>
+                      <input type="text" class="form-control" aria-describedby="emailHelp">
+                    </div>
+                    <div class="input-group mb-3 col-12 ">
+                      <input type="file" class="form-control" id="inputGroupFile02">
+                    </div>
+                    <div class="input-group mb-3">
+                      <div class="input-group-text border-0 bg-transparent p-0">
+                        <input class="form-check-input mt-0 " type="checkbox" value="" aria-label="Checkbox for following text input">
+                      </div>
+                      <input type="text" class="form-control bg-transparent border-0 text-black " aria-label="Text input with checkbox" placeholder="Seleziona per proseguire">
+                    </div>
+                    <div class="btns-offcanva d-flex flex-row  ">
+                      <button type="submit" class="btn btn-primary mx-1 ">Salva</button>
+                      <button type="reset" class="btn btn-warning mx-1 ">
+                        Svuota
+                      </button>
+                    </div>
+                  </form>
+                
+                      
                   </div>
                   
-                  <div class="mb-3 col-12 col-md-6 ">
-                    <label for="exampleInputEmail1" class="form-label">Pasword</label>
-                    <input type="email" class="form-control" aria-describedby="emailHelp">
-                  </div>
-                  <div class="mb-3 col-12">
-                    <label for="exampleInputEmail1" class="form-label">Indirizzo</label>
-                    <input type="email" class="form-control" aria-describedby="emailHelp">
-                  </div>
-                  <div class="mb-3 col-12 col-md-6 ">
-                    <label for="exampleInputEmail1" class="form-label">città</label>
-                    <input type="email" class="form-control" aria-describedby="emailHelp">
-                  </div>
-                  <div class="mb-3 col-12 col-md-6 ">
-                    <label for="exampleInputEmail1" class="form-label">Stato</label>
-                    <input type="email" class="form-control" aria-describedby="emailHelp">
-                  </div>
-                </div>
+                
               </div>
-              
-              
-              
             </div>
-            </div>
-          </div>
-        </section>
+              
+              
+            </div> 
+         </section>
+
          <!-- SECTIONS -->
          <section id="tabs-contents" class="py-4 bg-light ">
           <div class="row m-0 ">
@@ -423,6 +457,9 @@
           
          
         </section>
+
+         
+       
      </div>
       
 
