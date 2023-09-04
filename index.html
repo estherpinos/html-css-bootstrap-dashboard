@@ -127,16 +127,58 @@
             </div>
 
             <div class="nuovo-studente col-12 order-sm-1 col-md-4 order-md-3 col-xl-3 my-sm-2 ">
+            
               <p class="text-white m-0 ">Nuovo Studente</p>
+
+              <!-- BUTTON PLUS -->
+              
+              <button class="btn btn-primary border-1 border-white " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                +
+              </button>
+              
+              <div class="offcanvas offcanvas-end w-50 " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                  <div class="row"><div class="mb-3 col-12 col-md-6 ">
+                    <label for="exampleInputEmail1" class="form-label">Nome</label>
+                    <input type="email" class="form-control"  aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3 col-12 col-md-6 ">
+                    <label for="exampleInputEmail1" class="form-label">Cognome</label>
+                    <input type="email" class="form-control" aria-describedby="emailHelp">
+                  </div>
+                  
+                  <div class="mb-3 col-12 col-md-6 ">
+                    <label for="exampleInputEmail1" class="form-label">Pasword</label>
+                    <input type="email" class="form-control" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3 col-12">
+                    <label for="exampleInputEmail1" class="form-label">Indirizzo</label>
+                    <input type="email" class="form-control" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3 col-12 col-md-6 ">
+                    <label for="exampleInputEmail1" class="form-label">città</label>
+                    <input type="email" class="form-control" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3 col-12 col-md-6 ">
+                    <label for="exampleInputEmail1" class="form-label">Stato</label>
+                    <input type="email" class="form-control" aria-describedby="emailHelp">
+                  </div>
+                </div>
+              </div>
+              
               
               
             </div>
+            </div>
           </div>
         </section>
-
-
-        <!-- SECTIONS -->
-        <section id="tabs-contents" class="py-4 bg-light ">
+         <!-- SECTIONS -->
+         <section id="tabs-contents" class="py-4 bg-light ">
           <div class="row m-0 ">
             <div class="content-left col-12 col-lg-7 px-2">
               <div>
@@ -381,8 +423,13 @@
           
          
         </section>
-        
      </div>
+      
+
+
+       
+        
+     
     </div>
    
     
